@@ -1,0 +1,14 @@
+my:
+  name: zhangjiwei
+  age: 25
+  number: ${random.int}
+  uuid: ${random.uuid}
+  max: ${random.int(10)}
+  value: ${random.value}
+  greeting: hi,I'm ${my.name}
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://119.254.118.221:3306/obd_analysis_db?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    username: lbsserver
+    password: ident1fIed
